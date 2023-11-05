@@ -1,0 +1,1 @@
+(()=>{const e=document.getElementById("content"),t=document.createElement("header"),n=document.createElement("h1"),d=document.createElement("section"),c=document.createElement("div");c.id="hero-image";const m=document.createElement("pre");m.id="copy",m.textContent="TEst",e.appendChild(t),e.appendChild(d),t.appendChild(n),d.appendChild(c),d.appendChild(m)})();
