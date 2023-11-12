@@ -1,16 +1,13 @@
-import createElement from "../../create-dom.js"
-
-// create DOM
-
-
-const home =  function() {
-    
-const content = document.getElementById('content')
-
-const contentContainer = createElement('div', 'content-container')
-
-contentContainer.innerHTML = `
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <header>
             <h1>La Regilia</h1>
             <div id="tabContainer">
                 <div id="menu-tab">Menu</div>
@@ -32,7 +29,7 @@ contentContainer.innerHTML = `
                 </div>  
             </div>
             <div id="hero-image">
-                <img src="images/stereotypical-italian-man-eating-pizza-and-gesturing-with-hand-B0X2J1.jpg" alt="" srcset="">
+                <img src="stereotypical-italian-man-eating-pizza-and-gesturing-with-hand-B0X2J1.jpg" alt="" srcset="">
             </div>
         </div>
         <div id="bottom-content">
@@ -42,7 +39,7 @@ contentContainer.innerHTML = `
             </div>
             <div id="content-hover-container">
                 <div class="content-hover">
-                    <img src="images/chef-hands-making-spaghetti-pasta-noodles-fresh-pasta-black-table-flour-chef-hands-making-spaghetti-pasta-noodles-144856209.webp" alt="" srcset="">
+                    <img src="chef-hands-making-spaghetti-pasta-noodles-fresh-pasta-black-table-flour-chef-hands-making-spaghetti-pasta-noodles-144856209.webp" alt="" srcset="">
                     <div class="hover-text">
                         <p>
                             Making a handmade pasta noodle all-puporse flour. 
@@ -50,34 +47,25 @@ contentContainer.innerHTML = `
                     </div>
                 </div>
                 <div class="content-hover">
-                    <img src="images/close-up-hands-holding-pasta_23-2148584844.webp" alt="" srcset="">
+                    <img src="close-up-hands-holding-pasta_23-2148584844.webp" alt="" srcset="">
                     <div class="hover-text">
                         <caption>Size 13 La-Fonte Pasta. This is the only pasta that 95% of indonesian can eat.</caption>
                     </div>
                 </div>
                 <div class="content-hover">
-                    <img src="images/pizza-cut-segments-piece-being-taken-female-hand-98074914.webp" alt="" srcset="">
+                    <img src="pizza-cut-segments-piece-being-taken-female-hand-98074914.webp" alt="" srcset="">
                     <div class="hover-text">
                         <p>Neapolitan Pizza with extra cheese, the delivery was a bit late but it was still good after a microwave magic</p>
                     </div>
                 </div>
                 <div class="content-hover">
-                    <img src="images/IMG_1603-3.webp" alt="" srcset="">
+                    <img src="IMG_1603-3.webp" alt="" srcset="">
                     <div class="hover-text">
                         <caption>Frozen al giouli pasta, freshly warmed by the hand of our staff for maximum body salt penetration.</caption>
                     </div>
                 </div>
             </div>
         </div>
-`
-
-content.appendChild(contentContainer)
-
-console.log(contentContainer)
-}
-
-export default home
-
-
-
-
+    </div>
+</body>
+</html>
